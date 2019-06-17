@@ -1,0 +1,21 @@
+Santiago Bedoya Betancur y Lina María Uribe
+
+Punto 2:
+
+-¿Que hacen los parametros argc y argv?
+El parámetro argc (argument count) dice cuántos parámetros serán enviados al programa. Entre los argumentos que cuenta se incluye el agumento de ejecución (./ejecutable)
+El parámetro argv (argument vector) es un apuntador a un arreglo que contiene los argumentos que se han pasado desde el sistema operativo al invocar el programa.
+
+-¿Como se usa el programa?
+El programa inicialmente imprime el número de argumentos que fueron pasados, luego recorre el arreglo en busca de un argumento "debug" o un  argumento "-file". Al encontrar "debug" imprime "PROGRAM DEBUG MODE" y cuando encuentra "-file" imprime "PROGRAM READ FILENAME" e imprime el siguiente argumento del arreglo.
+
+Punto 3:
+
+-¿Que hace la funcion atoi?
+Convierte el string ingresado como parametro a su valor entero equivalente y lo retorna, si la conversión no es válida retorna 0.
+
+-Ademas de atoi existen otras funciones que permitan convertir cadenas de caracteres a numeros reales ¿cuales?
+atof y atol
+
+-Existen funciones que convierten valores numericos a cadenas de caracteres ¿cuales?
+sfrintf y en la librería stdlib se encuentra itoa.
